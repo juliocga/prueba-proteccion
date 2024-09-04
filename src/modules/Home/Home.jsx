@@ -107,7 +107,7 @@ function Home() {
             second: "numeric",
             hour12: true,
           })}
-          <CustomButton onClick={handleFiboReal} variant="contained">Crear serie</CustomButton>
+          <CustomButton onClick={handleFiboReal} variant="contained">Crear hora actual</CustomButton>
         </RealTimeContent>
         <CustomTimeContent>
           <DemoItem label={'"hours", "minutes" and "seconds"'}>
